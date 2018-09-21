@@ -38,7 +38,8 @@ const prepareStateFromWord = (given_word) => {
                 <CharacterCard value={c} key={i} attempt={this.state.attempt} activationHandler={this.activationHandler} />)
                 }
                 <p>Round : {this.state.attempt}</p>
-                <h1>Result :{this.state.completed? "you win :)" : "you lost please try again :("}</h1>
+                <h1>Result :{this.state.completed? " you win :)" : " keep trying"}</h1>
+                <p>Hope u enjoy this game :D</p>
             </div>
         );
     }
