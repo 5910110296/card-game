@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-export default class CharacterCard extends Component {
+export default class CharacterCard extends Component{
     render(){
         return (
-        <div>{this.props.value}</div>
+            <div className="card" >{
+                this.props.value
+            }</div>
         )
     }
-   }
+}
