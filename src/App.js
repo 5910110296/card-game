@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div >
-          <WordCard value="ABCDEFGHIJKLMNOPQRSTUVWXYZ"/>
+          <WordCard value="กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ"/>
       </div>
     );
   }
